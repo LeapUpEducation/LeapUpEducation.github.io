@@ -1,0 +1,162 @@
+---
+title: 'Leap Up Supplementary Materials'
+author: "Davis, Frankie"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output:
+  rmarkdown::html_document:
+    toc: true
+    theme: cosmo
+---
+
+<style>
+.title {
+  font-weight: bold;
+}
+body {
+  text-align: justify;
+  margin-bottom: 50px;
+}
+h2 {
+  font-weight: bold;
+  text-decoration: underline;
+}
+h3 {
+  font-weight: bold;
+}
+blockquote {
+  font-size: 1em;
+}
+img {
+  max-width: 300px;
+}
+.footer {
+  padding: 20px;
+  background-color: #555;
+}
+</style>
+
+
+[comment]: # (***************************************)
+
+
+[comment]: # ()
+[comment]: # (Convention)
+[comment]: # (bold: keyword)
+[comment]: # (italic: emphasis)
+[comment]: # (_e.g._, _i.e._)
+
+
+[comment]: # (***************************************)
+
+
+```{r, echo=FALSE}
+library(DiagrammeR)
+```
+
+***************************************
+
+## Us
+
+![](img/Logo_300ppi.png)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+***************************************
+
+## The Site
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+### How to use
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+***************************************
+
+## 0. Extra Math Tutorials
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Content covered:
+
+* [Linear equations](00-math/liear.html)
+* [Vectors](00-math/vector.html)
+* [Proportionality](00-math/prop.html)
+
+***************************************
+
+## 1. Heat and Gases
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Content covered:
+
+* [fake](_/fake.html)
+* [fake](_/fake.html)
+* [fake](_/fake.html)
+
+***************************************
+
+## 2. Force and Motion
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Content covered:
+
+* [fake](_/fake.html)
+* [fake](_/fake.html)
+* [fake](_/fake.html)
+
+***************************************
+
+## 3. Wave Motion
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Content covered:
+
+* [fake](_/fake.html)
+* [fake](_/fake.html)
+* [fake](_/fake.html)
+
+***************************************
+
+## 4. Electricity and Magnetism
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Content covered:
+
+* [fake](_/fake.html)
+* [fake](_/fake.html)
+* [fake](_/fake.html)
+
+***************************************
+
+## 5. Radioactivity and Nuclear Energy
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Content covered:
+
+* [fake](_/fake.html)
+* [fake](_/fake.html)
+* [fake](_/fake.html)
+
+***************************************
+
+## More resources
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+### Youtube channels
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+* [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw/featured)
+
+### Past papers
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+* [DSE00](http://dse00.blogspot.com/)
