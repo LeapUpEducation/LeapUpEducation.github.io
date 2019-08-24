@@ -1,0 +1,30 @@
+.title {
+  font-weight: bold;
+}
+
+#logo {
+  max-width: 300px;
+}
+
+body {
+  text-align: justify;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+blockquote {
+  font-size: 1em;
+}
+
+#back {
+  text-align: right;
+}
+
