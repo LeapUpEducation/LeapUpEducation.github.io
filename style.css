@@ -1,14 +1,23 @@
-.title {
-  font-weight: bold;
-}
-
 #logo {
   max-width: 300px;
 }
 
+#back {
+  text-align: right;
+}
+
+/********************************/
+
 body {
+  margin-bottom: 15px;
+}
+
+main {
   text-align: justify;
-  margin-bottom: 50px;
+}
+
+h1 {
+  font-size: 35px;
 }
 
 h2 {
@@ -24,7 +33,41 @@ blockquote {
   font-size: 1em;
 }
 
-#back {
-  text-align: right;
+p {
+  margin: 8px 0;
 }
 
+/********************************/
+/***** general *****/
+
+.title {
+  margin: 0;
+  padding: 10px 0;
+  font-weight: bold;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #FFF;
+}
+
+#TOC a {
+  color: #000;
+}
+
+.main-container {
+  margin-top: 60px;
+}
+
+.container {}
+
+/********************************/
+/***** content box *****/
+
+.blue {
+  background-color:#e6f0ff;
+  padding: 20px;
+}
+
+.note {}
+.problem {}
+.theorem {}

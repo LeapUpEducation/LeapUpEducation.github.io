@@ -4,7 +4,10 @@ author: "Davis, Frankie"
 date: "`r format(Sys.time(), '%d %B %Y')`"
 output:
   rmarkdown::html_document:
+    includes:
+      after_body: footer.html
     toc: true
+    toc_depth: 2
     theme: cosmo
     css: style.css
 ---
@@ -28,6 +31,8 @@ library(DiagrammeR)
 
 ***************************************
 
+<main>
+
 ## Us
 
 <div id="logo">
@@ -35,6 +40,12 @@ library(DiagrammeR)
 </div>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+<div class="blue">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</div>
+
+Click [here](https://www.leapupedu.com.hk/) to visit our core website.
 
 ***************************************
 
@@ -135,3 +146,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 * [DSE00](http://dse00.blogspot.com/)
+
+</main>
