@@ -16,7 +16,7 @@ main {
   text-align: justify;
 }
 
-h1 {
+h1.title {
   font-size: 35px;
 }
 
@@ -45,6 +45,7 @@ p {
   padding: 10px 0;
   font-weight: bold;
   width: 100%;
+  max-width: 910px;
   position: fixed;
   top: 0;
   background-color: #FFF;
