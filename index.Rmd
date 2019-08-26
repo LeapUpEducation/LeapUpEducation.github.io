@@ -1,10 +1,11 @@
 ---
-title: 'Leap Up Supplementary Materials'
+title: "Leap Up Supplementary Materials"
 author: "Davis, Frankie"
 date: "`r format(Sys.time(), '%d %B %Y')`"
 output:
   rmarkdown::html_document:
     includes:
+      before_body: header.html
       after_body: footer.html
     toc: true
     toc_depth: 2
@@ -33,7 +34,7 @@ library(DiagrammeR)
 
 <main>
 
-## Us
+## [Us](https://www.leapupedu.com.hk/)
 
 <div id="logo">
 ![](img/Logo_300ppi.png)
@@ -41,11 +42,7 @@ library(DiagrammeR)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-<div class="blue">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-</div>
-
-Click [here](https://www.leapupedu.com.hk/) to visit our core website.
+Click the title or [here](https://www.leapupedu.com.hk/) to visit our core website.
 
 ***************************************
 
@@ -59,19 +56,21 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ***************************************
 
-## 0. Extra Math Tutorials
+## [0. Extra Math Tutorials](00-math.html)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 Content covered:
 
-* [Linear equations](fake.html)
-* [Vectors](fake.html)
-* [Proportionality](fake.html)
+* [Linear equations](00-math.html#linear-equations)
+* [Vectors](00-math.html#vectors)
+* [Proportionality](00-math.html#proportionality)
+
+Click the title or [here](00-math.html) to access the notes.
 
 ***************************************
 
-## 1. Heat and Gases
+## [1. Heat and Gases](fake.html)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
@@ -80,10 +79,12 @@ Content covered:
 * [fake](fake.html)
 * [fake](fake.html)
 * [fake](fake.html)
+
+Click the title or [here](fake.html) to access the notes.
 
 ***************************************
 
-## 2. Force and Motion
+## [2. Force and Motion](fake.html)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
@@ -92,10 +93,12 @@ Content covered:
 * [fake](fake.html)
 * [fake](fake.html)
 * [fake](fake.html)
+
+Click the title or [here](fake.html) to access the notes.
 
 ***************************************
 
-## 3. Wave Motion
+## [3. Wave Motion](fake.html)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
@@ -104,10 +107,12 @@ Content covered:
 * [fake](fake.html)
 * [fake](fake.html)
 * [fake](fake.html)
+
+Click the title or [here](fake.html) to access the notes.
 
 ***************************************
 
-## 4. Electricity and Magnetism
+## [4. Electricity and Magnetism](fake.html)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
@@ -116,10 +121,12 @@ Content covered:
 * [fake](fake.html)
 * [fake](fake.html)
 * [fake](fake.html)
+
+Click the title or [here](fake.html) to access the notes.
 
 ***************************************
 
-## 5. Radioactivity and Nuclear Energy
+## [5. Radioactivity and Nuclear Energy](fake.html)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
@@ -128,6 +135,22 @@ Content covered:
 * [fake](fake.html)
 * [fake](fake.html)
 * [fake](fake.html)
+
+Click the title or [here](fake.html) to access the notes.
+
+***************************************
+
+## [6. Electives](fake.html)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Content covered:
+
+* [fake](fake.html)
+* [fake](fake.html)
+* [fake](fake.html)
+
+Click the title or [here](fake.html) to access the notes.
 
 ***************************************
 
